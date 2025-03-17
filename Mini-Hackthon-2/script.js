@@ -15,6 +15,21 @@ document.getElementById('select-category-btn').addEventListener('click', selectC
 document.getElementById('submit-answer').addEventListener('click', submitAnswer);
 document.getElementById('play-again').addEventListener('click', playAgain);
 document.getElementById('end-game').addEventListener('click', endGame);
+//
+// document.getElementById('submit-answer').addEventListener('click', submitAnswer);
+// document.getElementById('play-again').addEventListener('click', playAgain);
+// document.getElementById('end-game').addEventListener('click', endGame);
+
+
+
+
+
+
+// function selectAnswer(answer) {
+//     selectedAnswer = answer;
+//     var answersContainer = document.getElementById('answers');
+//     var answerOptions = answersContainer.getElementsByTagName('li');
+
 
 // Fetch categories
 function fetchCategories() {
